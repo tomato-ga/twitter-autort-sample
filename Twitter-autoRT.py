@@ -1,6 +1,6 @@
 import tweepy
 
-# ツイートするときのAPI suki_kamipan
+# ツイートするときのAPI
 API_KEY = "自分のAPI"
 API_SECRET = "自分のAPI"
 ACCESS_TOKEN = "自分のAPI"
@@ -17,7 +17,7 @@ q = 'キーワード入力'
 counts = 10
 
 # リスト取得 非公開リストは取得NG 公開設定にする
-search_result = client.get_list_tweets(id=1496749113932935168, max_results=counts) # expansions=attachments.media_keys
+search_result = client.get_list_tweets(id="リストIDをここに入力", max_results=counts) # expansions=attachments.media_keys
 tweetids = search_result.data
 
 for tweetid in tweetids:
