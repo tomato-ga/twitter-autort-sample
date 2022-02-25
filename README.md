@@ -1,2 +1,3 @@
 # twitter-autort-sample
-Twitterの自動RTサンプルプログラムです。
+Pythonで動くTwitterの自動RTサンプルプログラムです。
+Twitter API v2対応
